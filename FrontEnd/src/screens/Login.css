@@ -1,0 +1,43 @@
+.login-logo {
+  position: absolute;
+  top: 34.5%;
+  left: 11%;
+  width: 110px;
+  background-color: transparent;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-weight: bold;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+  user-select: none;
+}
+
+.button-center-round {
+  position: absolute;
+  top: -43vh;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.login-background {
+  background-image: url(../assets/title.jpg);
+  
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height: 100%;
+  height: 100vh;
+}

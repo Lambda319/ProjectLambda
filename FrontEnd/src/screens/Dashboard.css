@@ -1,0 +1,105 @@
+.logo {
+    margin: 5px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+    [data-theme="dark"] .site-layout .site-layout-background {
+      background: #141414;
+}
+
+.ant-radio-button-wrapper{
+    display: none !important;
+}
+
+.header-text {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: content-box;
+  font-size: x-large;
+}
+
+.header-tools-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 20vh;
+}
+
+.row-style {
+  overflow-y: scroll;
+  height: 75vh;
+}
+
+ul.events{
+    list-style: none;
+    margin-left:-2em;
+}
+
+
+.ant-btn.meeting-button{
+    margin-left: -2em;
+    border: none;
+    margin-bottom: 5px;
+    color: #141414;
+    overflow-x: clip;
+}
+
+.ant-btn.meeting-button:hover{
+    color: #141414;
+}
+
+.ant-btn.meeting-button:active{
+    color: #141414;
+}
+
+.ant-btn.meeting-button:focus{
+    color: #141414;
+}
+
+.ant-btn.meeting-button.two{
+    border: #bfbfbf 0.5px solid;
+    background-color: #f0f0f0;
+}
+
+.ant-btn.meeting-button.one{
+    border: #00a13b 0.5px solid;
+    background-color: rgba(160, 237, 142, 0.33);
+}
+
+.ant-btn.meeting-button.zero{
+    border: #597ef7 0.5px solid;
+    background-color: #d6e4ff;
+}
+
+.ant-btn.meeting-button.two:hover{
+    background-color: #f8f8f8;
+}
+
+.ant-btn.meeting-button.one:hover{
+    background-color: rgba(208, 246, 195, 0.33);
+}
+
+.ant-btn.meeting-button.zero:hover{
+    background-color: #eef5ff;
+}
+
+.ant-btn.meeting-button.two:active{
+    background-color: rgb(217, 217, 217);
+}
+
+.ant-btn.meeting-button.one:active{
+    background-color: rgb(119, 197, 119);
+}
+
+.ant-btn.meeting-button.zero:active{
+    background-color: rgb(138, 155, 225);
+}
+
+.scrollable-meetings{
+    overflow-y: scroll;
+    height: 550px;
+}
+
+
+

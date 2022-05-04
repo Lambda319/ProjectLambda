@@ -1,0 +1,15 @@
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+  }
+
+  .updateButton {
+    text-align: -webkit-center;
+    margin-top: 25px;
+   position: absolute;
+    
+  }

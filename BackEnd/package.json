@@ -1,0 +1,23 @@
+{
+  "name": "lambda-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx lambda-build upload testRDSDatabase -r us-west-2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1082.0",
+    "mysql": "^2.18.1",
+    "wscat": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^17.0.19",
+    "eslint": "^6.8.0"
+  }
+}

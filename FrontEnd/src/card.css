@@ -1,0 +1,119 @@
+
+.card-title {
+  position: absolute;
+  width: 111px;
+  height: 24px;
+  left: 128px;
+  top: 4px;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.participants {
+  font-family: Aleo;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 100px;
+  color: grey;
+}
+
+.meeting-card-info {
+  margin-top: 12px;
+  font-family: Aleo;
+  font-size: 12px;
+  text-align: center;
+}
+
+.ant-card {
+  border-color: black;
+}
+
+.meeting-card {
+  width: 350px;
+  height: 420px;
+  padding: 5px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.meeting-card:hover{
+  border: solid 1px #CCC;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.details-text {
+  margin: 0;
+  font-family: Aleo;
+}
+
+.details-text-first{
+  margin-top: 5px;
+}
+
+.details-header {
+  margin-top: 10px;
+  font-family: Aleo;
+  font-size:16px;
+}
+
+.details-participants {
+    margin-top: 5px;
+    overflow-x: auto;
+    height: 365px;
+    border: 0.5px solid lightgray;
+    padding: 3px;
+}
+
+.card-participants {
+  overflow-x: auto;
+  height: 174px;
+  border-top: 1px solid rgba(155, 154, 154, 0.66);
+}
+
+.tag{
+  font-weight:bold;
+  text-align: center;
+}
+
+.meeting-tag{
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.button-div{
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  bottom: 5px;
+  left: 3px;
+}
+
+.meeting-details-tag{
+  position: absolute;
+  width: 50%;
+  left: 130px;
+  top: 60px;
+  text-align: center;
+}
+
+.tag.progress{
+  background-color: rgba(21, 157, 75, 0.18);
+  color: #049340;
+  border-color: #00a13b;
+}
+
+.participant-row-style {
+  overflow-y: scroll;
+  height: 55vh;
+}

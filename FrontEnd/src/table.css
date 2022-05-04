@@ -1,0 +1,39 @@
+.ant-divider {
+  background-color: black;
+}
+
+.card-title {
+  position: absolute;
+  width: 111px;
+  height: 24px;
+  left: 128px;
+  top: 4px;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.participants {
+  font-family: Aleo;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 100;
+}
+
+.meeting-info {
+  margin-top: 12px;
+  font-family: Aleo;
+  font-size: 12px;
+  text-align: center;
+}
+
+.ant-card {
+  border-color: black;
+}
