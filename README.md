@@ -5,7 +5,6 @@ Welcome to Project Lambda, a Zoom app where users can create, join, edit and del
 Check out the deployed project [here](https://zoom-dashboard.tk). Please note this deployment will no longer be hosted by January 2023.
 
 ### The following users have been configured with log in credentials:
-- Zoom Admin (username: admin@zoom-dashboard.tk)
 - Adelaide Koloman (username: adelaidekoloman@zoom-dashboard.tk)
 - Cassie Medrod (username: cassiemedrod@zoom-dashboard.tk)
 - Sherali Nora (username: sheralinora@zoom-dashboard.tk)
