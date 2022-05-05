@@ -26,7 +26,9 @@ After clicking login on the web-app, you may be prompted to add the application 
 
 
 ## Supported Features
-For full functionality, please have the zoom app installed locally. Please note, the features in the sertings page are currently disabled in the back-end
+For full functionality, please have the zoom app installed locally. Please note, the features in the sertings page are currently disabled in the back-end.
+Real-time updates work best on Google Chrome.
+
 ### Dashboard
 - Updated in real-time using websockets
 - Displays participants invited to meetings and participants that have joined meetings
