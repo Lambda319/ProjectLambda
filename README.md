@@ -72,3 +72,8 @@ For full functionality, please have the zoom app installed locally. Please note,
 - Emails are sent to users invited to a scheduled meeting who have not joined the meetings 2 minutes after it has started
 - Notifications include a link to join the meeting
 - This feature is deployed, but is currently not available for testing. Screenshots and test emails will be provided to preview this feature. 
+
+#### Webhook Events
+- Zoom webhooks are used to persist meetings created, deleted or updated externally into the database.
+- Webhooks are also used to determine when meetings are started or have ended, or when participants join or leave meetings.
+- Webhooks can also be used to determine whether a meeting was recorded in the cloud. While this is supported in our application, a Pro Zoom account is required for this feature to be enabled for new meetings
