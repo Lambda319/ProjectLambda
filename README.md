@@ -4,12 +4,12 @@ Welcome to Project Lambda, a Zoom web-app app where users can create, join, edit
 
 Multiple views provide different ways to visualize meeting schedules and search for time ranges and/or colleagues. Users can also manage groups of frequently contacted colleagues, as well as start instant meetings with group members in one-click.
 
-Check out the deployed project [here](https://zoom-dashboard.tk). This works best on Chrome, and is not supported on mobile devices. 
+**Check out the deployed project [here](https://zoom-dashboard.tk)**. This works best on Chrome, and is not supported on mobile devices. 
 Please note this deployment will no longer be hosted by January 2023.
 
 The back-end is serverless, built using API Gateway and Lambda. All data is hosted in a micro RDS instance.
 
-Screenshorts & example videos to come.
+Screenshots & example videos to come.
 
 ## The following users have been configured with log in credentials:
 - Adelaide Koloman (username: adelaidekoloman@zoom-dashboard.tk)
