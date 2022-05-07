@@ -4,6 +4,7 @@
 
 - [ProjectLambda](#projectlambda)
 - [About](#about)
+- [Examples](#examples)
 - [Login & Credentials](#login--credentials)
   - [Configured Credentials:](#the-following-users-have-been-configured-with-log-in-credentials)
   - [Using your own Zoom account](#using-your-own-zoom-account)
@@ -29,6 +30,9 @@ Please note this deployment will no longer be hosted by January 2023.
 The back-end is serverless, built using API Gateway and Lambda. All data is hosted in a micro RDS instance.
 
 Screenshots & example videos to come.
+
+# Examples
+See the [Examples folder](/Examples) for a preview of some of the features
 
 # Login & Credentials
 
