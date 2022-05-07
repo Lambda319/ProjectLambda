@@ -18,7 +18,7 @@
       spaces
 - Create and edit your `index.js` file inside your newly created folder
 
-> Example structure: </br>![example](/imgs/lambda-example.png)
+> Example structure: </br>![example](imgs/lambda-example.png)
 
 ## To upload to AWS-Lambda
 
