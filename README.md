@@ -1,6 +1,6 @@
 # ProjectLambda
 
-# Table of contents
+# Table of Contents
 
 - [ProjectLambda](#projectlambda)
 - [About](#about)
