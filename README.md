@@ -1,5 +1,24 @@
 # ProjectLambda
 
+# Table of contents
+
+- [ProjectLambda](#projectlambda)
+- [About](#about)
+- [Login & Credentials](#login--credentials)
+  - [Configured Credentials:](#the-following-users-have-been-configured-with-log-in-credentials)
+  - [Using your own Zoom account](#using-your-own-zoom-account)
+- [Supported Features](#supported-features)
+  - [Dashboard](#dashboard)
+  - [Meeting Viewer & Calendar](#meeting-viewer--calendar)
+  - [Favorites & Groups](#favorites--groups)
+  - [Other features](#other-features)
+    - [Create Meeting](#create-meeting)
+    - [Call All](#call-all)
+    - [Notifications](#notifications)
+    - [Email notifications](#email-notifications)
+    - [Webhook Events](#webhook-events)
+
+# About
 Welcome to Project Lambda, a Zoom web-app app where users can create, join, edit and delete Zoom meetings for their organization! 
 
 Multiple views provide different ways to visualize meeting schedules and search for time ranges and/or colleagues. Users can also manage groups of frequently contacted colleagues, as well as start instant meetings with group members in one-click.
@@ -10,6 +29,8 @@ Please note this deployment will no longer be hosted by January 2023.
 The back-end is serverless, built using API Gateway and Lambda. All data is hosted in a micro RDS instance.
 
 Screenshots & example videos to come.
+
+# Login & Credentials
 
 ## The following users have been configured with log in credentials:
 - Adelaide Koloman (username: adelaidekoloman@zoom-dashboard.tk)
@@ -25,18 +46,23 @@ To log in, make sure you are not signed into your own Zoom account on Zoom.us.
 After clicking login on the web-app, you may be prompted to add the application to the account above. Make sure you click 'Allow'.
 Please open an issue if you have trouble logging in.
 
+## Using your own Zoom account
+Want to use your own Zoom account? Open an issue with the desired email address. <br/>
+You will added as an authorized user in the database.
+Account management will be delegated to our Zoom organizational account. As a result, please do not request access for an account used for purposes other than testing. 
 
-## Supported Features
+
+# Supported Features
 For full functionality, please have the zoom app installed locally. Please note, the features in the sertings page are currently disabled in the back-end.
 Real-time updates work best on Google Chrome.
 
-### Dashboard
+## Dashboard
 - Updated in real-time using websockets
 - Displays participants invited to meetings and participants that have joined meetings
 - Can join ongoing meetings from the dasboard
 - Search & sort through meetings
 
-### Meeting Viewer & Calendar
+## Meeting Viewer & Calendar
 - View past meetings, their participants, their scheduled date & time
 - View meeting status (scheduled, in progress, ended)
 - View participants status (invited, not invited but joined, attended)
@@ -45,7 +71,7 @@ Real-time updates work best on Google Chrome.
 - Search & sort through meetings
 - Can elect to only view meetings of a subteam the user belongs in
 
-### Favorites & Groups
+## Favorites & Groups
 - Updated in real-time using websockets
 - Add or remove users from favorites or other groups
 - Create, edit, or delete groups (other than favorites)
@@ -53,30 +79,30 @@ Real-time updates work best on Google Chrome.
 - Search & sort through users
 - Call all users on a list or call selected users (known as 'Call All', more details bellow)
 
-### Other features
+## Other features
 
-#### Create Meeting
+### Create Meeting
 - Meetings can be created from any view using the sidebar button
 
-#### Call All
+### Call All
 - Calls all users in a list / selected users 
 - This creates a meeting, invites the selected users, and starts the meeting.
 - Invited with the application open will receive a web notification and/or a desktop notification asking them to join the meetings.
 - Clicking the notification will launch the meeting for them.
 
 
-#### Notifications
+### Notifications
 - Notifications are delivered using the webapp, and optionally using desktop notifications if allowed by the user when prompted. Desktop notifications are not supported on firefox.
 - Call all notifications (received instantly)
 - Meeting reminders (30 and 15 minutes prior to a scheduled meeting)
 - Meeting starting reminder (when a meeting starts).
 
-#### Email notifications
+### Email notifications
 - Emails are sent to users invited to a scheduled meeting who have not joined the meetings 2 minutes after it has started
 - Notifications include a link to join the meeting
 - This feature is deployed, but is currently not available for testing. Screenshots and test emails will be provided to preview this feature. 
 
-#### Webhook Events
+### Webhook Events
 - Zoom webhooks are used to persist meetings created, deleted or updated externally into the database.
 - Webhooks are also used to determine when meetings are started or have ended, or when participants join or leave meetings.
 - Webhooks can also be used to determine whether a meeting was recorded in the cloud. While this is supported in our application, a Pro Zoom account is required for this feature to be enabled for new meetings
