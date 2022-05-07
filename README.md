@@ -91,7 +91,7 @@ Real-time updates work best on Google Chrome.
 ### Call All
 - Calls all users in a list / selected users 
 - This creates a meeting, invites the selected users, and starts the meeting.
-- Invited with the application open will receive a web notification and/or a desktop notification asking them to join the meetings.
+- Invitees with the application open will receive a web notification and/or a desktop notification asking them to join the meetings.
 - Clicking the notification will launch the meeting for them.
 
 
