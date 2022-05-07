@@ -23,6 +23,7 @@ Authentication is through Zoom. Password for all users: nipGezvisfymxanre6.
 
 To log in, make sure you are not signed into your own Zoom account on Zoom.us. 
 After clicking login on the web-app, you may be prompted to add the application to the account above. Make sure you click 'Allow'.
+Please open an issue if you have trouble logging in.
 
 
 ## Supported Features
