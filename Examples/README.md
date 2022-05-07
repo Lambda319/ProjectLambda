@@ -11,6 +11,7 @@
 - [Favorites & Groups](#favorites--groups)
 - [Notifications](#notifications)
   - [Meeting Reminders](#meeting-reminders)
+    - [Email Notification](#email-notification) 
     - [Web Notification](#web-notification)
     - [In-app Notification](#in-app-notification)
   - [Call All Notification (Instant Meeting)](#call-all-notification-instant-meeting)
@@ -45,8 +46,12 @@
 ## Notifications
 
 ### Meeting Reminders
+
+#### Email Notification
+<img width=500 align="center" src=https://github.com/Lambda319/ProjectLambda/blob/main/Examples/Email%20Notification.png>
+
 #### Web Notification
-<img width=400 align="center" src=https://github.com/Lambda319/ProjectLambda/blob/main/Examples/Web%20Notification.png>
+<img width=300 align="center" src=https://github.com/Lambda319/ProjectLambda/blob/main/Examples/Web%20Notification.png>
 
 #### In-app Notification
 <img width=400 align="center" src="https://github.com/Lambda319/ProjectLambda/blob/main/Examples/In-app%20Notification.png">
