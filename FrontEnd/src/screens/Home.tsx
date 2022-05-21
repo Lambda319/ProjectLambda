@@ -109,6 +109,7 @@ const Home = () => {
         if (!favouritesRetrieved) {
           dispatch(fetchFavourites());
         }
+        dispatch(fetchNonFavouriteGroups());
       } catch (err) {
         console.error(err);
       }
@@ -122,7 +123,7 @@ const Home = () => {
       }
     }
     fetchEmailAndName();
-    fetchGroups()
+    //fetchGroups()
   }, []);
 
   useEffect(() => {
