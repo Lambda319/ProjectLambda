@@ -14,7 +14,7 @@ const Login = (): JSX.Element => {
     <>
       <div className="login-background"></div>
       <img className="login-logo" src={logo} alt="Login Logo" />
-      <h1 className="title">Project Lambda</h1>
+      <h1 className="title">Project Lambda test</h1>
       <Button
         className="button-center-round"
         onClick={authenticate}
